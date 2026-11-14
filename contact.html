@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact &amp; Reservations — Mimi's Eatery, Accra</title>
+<meta name="description" content="Find Mimi's Eatery in Accra, see opening hours, and book a table for lunch, dinner or Sunday waakye.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <span class="mark"><img src="images/logo.png" alt="Mimi's Eatery logo"></span>
+      <span>
+        <span class="brand-name">Mimi's</span>
+        <span class="brand-sub">Ghanaian Eatery</span>
+      </span>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a class="active" href="contact.html">Contact</a>
+      <a class="nav-cta" href="#booking">Reserve</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="min-height:auto">
+  <div class="media"><img src="images/dining.png" alt="The dining room at Mimi's Eatery"></div>
+  <div class="scrim"></div>
+  <div class="wrap content">
+    <div class="eyebrow">Contact &amp; Reservations</div>
+    <h1 class="serif">Come and eat.<br>We'll keep a table.</h1>
+    <p class="lede">Walk-ins are always welcome, but weekends fill up. Send a booking request, call us, or just turn up hungry and see what the grill has.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap split">
+
+    <div>
+      <div class="eyebrow">Where to find us</div>
+      <h2 class="serif" style="margin-bottom:8px">Mimi's Eatery</h2>
+      <p style="font-size:14px;color:var(--muted);line-height:1.9">
+        [12 Oxford Street, Osu]<br>
+        Accra, Ghana
+      </p>
+
+      <dl class="rows">
+        <div class="row"><dt>Phone</dt><dd><a href="tel:+233000000000">[+233 XX XXX XXXX]</a></dd></div>
+        <div class="row"><dt>WhatsApp</dt><dd><a href="https://wa.me/233000000000">[Message us]</a></dd></div>
+        <div class="row"><dt>Email</dt><dd><a href="mailto:hello@mimiseatery.com">[hello@mimiseatery.com]</a></dd></div>
+        <div class="row"><dt>Private dining</dt><dd>[events@mimiseatery.com]</dd></div>
+      </dl>
+
+      <h3 class="serif" style="font-size:20px;margin:38px 0 6px">Opening hours</h3>
+      <table class="hours">
+        <thead>
+          <tr><th>Day</th><th>Kitchen</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Monday — Thursday</td><td>11:30 — 22:00</td></tr>
+          <tr><td>Friday — Saturday</td><td>11:30 — 23:30</td></tr>
+          <tr><td>Sunday (waakye day)</td><td>11:00 — 21:00</td></tr>
+          <tr><td>Public holidays</td><td>12:00 — 21:00</td></tr>
+        </tbody>
+      </table>
+
+      <div class="map" style="margin-top:34px">
+        [Embed Google Map here]
+      </div>
+    </div>
+
+    <div class="form" id="booking">
+      <h3>Request a table</h3>
+      <p class="hint">Tell us when you're coming and how many of you there are. We reply within a few hours during opening times.</p>
+
+      <form action="#" method="post" novalidate>
+        <div class="grid-2">
+          <div class="field">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" placeholder="Ama Mensah" required>
+          </div>
+          <div class="field">
+            <label for="phone">Phone or WhatsApp</label>
+            <input id="phone" name="phone" type="tel" placeholder="+233 ..." required>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com">
+        </div>
+
+        <div class="grid-2">
+          <div class="field">
+            <label for="date">Date</label>
+            <input id="date" name="date" type="date" required>
+          </div>
+          <div class="field">
+            <label for="time">Time</label>
+            <input id="time" name="time" type="time" value="19:00" required>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div class="field">
+            <label for="guests">Guests</label>
+            <select id="guests" name="guests">
+              <option>1</option>
+              <option selected>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9+ (private dining)</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="occasion">Occasion</label>
+            <select id="occasion" name="occasion">
+              <option>Just eating</option>
+              <option>Birthday</option>
+              <option>Anniversary</option>
+              <option>Business lunch</option>
+              <option>Family gathering</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="notes">Anything we should know</label>
+          <textarea id="notes" name="notes" placeholder="Allergies, high chair, a quiet corner, birthday cake..."></textarea>
+        </div>
+
+        <button type="submit">Send booking request</button>
+        <p class="form-note">A request is not a confirmed booking until we reply. For same-day tables, please call instead.</p>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="serif">Good to know</h2>
+      <p>Small things that make the visit smoother.</p>
+    </div>
+    <div class="values">
+      <div>
+        <div class="vnum">01</div>
+        <h3>Large groups</h3>
+        <p>Tables of nine or more go through private dining so we can set the room properly. Email us and we'll plan the menu.</p>
+      </div>
+      <div>
+        <div class="vnum">02</div>
+        <h3>Takeaway</h3>
+        <p>Most of the menu travels well. Call ahead and it will be packed and waiting when you arrive.</p>
+      </div>
+      <div>
+        <div class="vnum">03</div>
+        <h3>Parking</h3>
+        <p>[Street parking on Oxford Street, plus a small lot behind the building after 6pm.]</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>Mimi's Eatery — Accra, Ghana</p>
+    <nav class="footer-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <p>&copy; 2026 Mimi's Eatery</p>
+  </div>
+</footer>
+
+</body>
+</html>
