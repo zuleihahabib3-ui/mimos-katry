@@ -304,3 +304,25 @@ form{display:flex;flex-direction:column;gap:16px}
 }
 .build-inner h3{font-size:clamp(20px,2.4vw,27px);margin-bottom:8px}
 .build-inner p{font-size:12.5px;line-height:1.75;color:var(--sage);max-width:480px}
+
+/* ---------- logo mark ---------- */
+.logo-mark{
+  width:46px;height:46px;flex:0 0 46px;border-radius:50%;
+  object-fit:cover;display:block;
+}
+
+/* ---------- keep the menu on one line ---------- */
+.nav{flex-wrap:nowrap}
+.nav a{white-space:nowrap}
+@media (max-width:760px){
+  .header-inner{flex-wrap:wrap;row-gap:9px}
+  .nav{
+    width:100%;flex-wrap:nowrap;gap:11px;justify-content:space-between;
+    overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;
+  }
+  .nav::-webkit-scrollbar{display:none}
+  .nav a{font-size:9.5px;letter-spacing:.06em}
+  .nav a.nav-cta{padding:8px 11px;font-size:9.5px;letter-spacing:.06em}
+  .logo-mark{width:40px;height:40px;flex-basis:40px}
+  .brand-name{font-size:15px;letter-spacing:.1em}
+}
